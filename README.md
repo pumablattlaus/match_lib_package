@@ -19,6 +19,13 @@ python3 -m venv --system-site-packages venv
 
 ### Installing
 
+Get most current match_lib submodule:
+
+```bash
+git submodule update --init --remote
+```
+
+
 Install package with connection to source (no reinstallation if changed):
 ```
 pip install -e .
