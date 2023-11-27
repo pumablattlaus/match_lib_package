@@ -24,6 +24,13 @@ source ~/hee/venv/bin/activate
 
 ### Installing
 
+Get most current match_lib submodule:
+
+```bash
+git submodule update --init --remote
+```
+
+
 Install package with connection to source (no reinstallation if changed):
 ```bash
 pip install -e .
