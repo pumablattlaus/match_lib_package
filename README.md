@@ -17,15 +17,20 @@ Install venv with inherited packages from global interpreter:
 python3 -m venv --system-site-packages venv
 ```
 
+Use venv:
+```bash
+source ~/hee/venv/bin/activate
+```
+
 ### Installing
 
 Install package with connection to source (no reinstallation if changed):
-```
+```bash
 pip install -e .
 ```
 
 Add requirements for testing:
-```
+```bash
 pip install -r requirements_dev.txt
 ```
 ## Usage <a name = "usage"></a>
@@ -34,13 +39,13 @@ Add notes about how to use the system.
 
 ### Testing
 Run tests for code:
-```
+```bash
 mypy src
 flake8 src
 pytest
 ```
 
 In different env (not working right now):
-```
+```bash
 tox
 ```
