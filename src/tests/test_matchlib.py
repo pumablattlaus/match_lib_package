@@ -1,6 +1,6 @@
 from match_lib.match_geometry import MyPoint, MyPose, MyPointStamped, MyOrient, rotateVector, rotationDiffRotated, getOrientationDiffList
 from geometry_msgs.msg import Pose
-from match_lib.filter_img import LowPassFilter
+from match_lib.filter import LowPassFilter
 import pytest
 import rospy
 

@@ -12,7 +12,7 @@
 Python Library for match robots and other things.
 
 ## Getting Started <a name = "getting_started"></a>
-Install venv with inherited packages from global interpreter:
+You may wish to install venv with inherited packages from global interpreter:
 ```
 python3 -m venv --system-site-packages venv
 ```
@@ -29,8 +29,15 @@ Get most current match_lib submodule:
 ```bash
 git submodule update --init --remote
 ```
+#### Install with ROS
+If the package is in catkin_ws/src, you can install it by using catkin build:
+```bash
+cd ~/catkin_ws
+catkin build match_lib
+source devel/setup.bash
+```
 
-
+#### Install without ROS
 Install package with connection to source (no reinstallation if changed):
 ```bash
 pip install -e .

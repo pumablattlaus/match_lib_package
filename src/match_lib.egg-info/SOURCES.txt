@@ -9,4 +9,3 @@ src/match_lib.egg-info/dependency_links.txt
 src/match_lib.egg-info/not-zip-safe
 src/match_lib.egg-info/requires.txt
 src/match_lib.egg-info/top_level.txt
-tests/test_matchlib.py
